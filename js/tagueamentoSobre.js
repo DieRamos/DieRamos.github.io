@@ -33,8 +33,7 @@ telefone.addEventListener("change", function(event) {
 });
 
 var enviar = document.getElementById('enviarId');
-enviar.addEventListener("click", function(event) {
-    
+enviar.addEventListener("click", function(event) {    
     ga('enviar.send', {
         hitType: 'event',
         eventCategory: 'contato',
